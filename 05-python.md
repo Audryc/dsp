@@ -18,7 +18,7 @@ These exercises are implemented with doctests, which are runnable tests inside d
 
 How are Python lists and tuples similar and different? Which will work as keys in dictionaries? Why?
 
-REPLACE THIS TEXT WITH YOUR RESPONSE
+Lists and tuples are similar because they are container objects, which mean they contain other data types such as integer (int), str (string), bool (Boolean), etc. Base on the syntax, list uses square bracket while tupple uses round bracket. One noteworthy difference between list and tuple is that list is mutable, which mean we can add or subtract the number of data, while tuple is immutable, which mean we cannot add or subtract the number of data. Since tuple is immutable and list is mutable, then tuple will work as keys in dictionaries while list will not work. 
 
 ---
 
@@ -27,7 +27,7 @@ REPLACE THIS TEXT WITH YOUR RESPONSE
 
 How are Python lists and sets similar and different? Give examples of using both. How does performance compare between lists and sets for finding an element. Why?
 
-REPLACE THIS TEXT WITH YOUR RESPONSE
+Like from the previous questions, both lists and sets are container objects, which mean they contain other data type. Also, both sets and lists are mutable, which mean we can add or subtract the number of data. The notable difference between list and set is that list is an ordered container, which mean each data has a number that verify their location in the list. On the other hand, set is not an ordered container, which mean every reoccuring data will only be shown once such that there is no duplicate data in the set. Since list is an ordered container, we can benefit accessing data base on their location in the list. However, we cannot access set by using positinal access since there is no order in the set object. 
 
 ---
 
@@ -36,7 +36,9 @@ REPLACE THIS TEXT WITH YOUR RESPONSE
 
 Describe Python's `lambda`. What is it, and what is it used for? Give at least one example, including an example of using a `lambda` in the `key` argument to `sorted`.
 
-REPLACE THIS TEXT WITH YOUR RESPONSE
+Lambda is an awesome feature in python. It acts similar to python function but it requires less effort to create. As a mathematician, lambda function acts more closely related to mathematical function. 
+
+Lambda example>>> g = lambda x: x^2
 
 ---
 
@@ -45,7 +47,7 @@ REPLACE THIS TEXT WITH YOUR RESPONSE
 
 Explain list comprehensions. Give examples and show equivalents with `map` and `filter`. How do their capabilities compare? Also demonstrate set comprehensions and dictionary comprehensions.
 
-REPLACE THIS TEXT WITH YOUR RESPONSE
+List comprehensions 
 
 ---
 
