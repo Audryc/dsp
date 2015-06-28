@@ -12,7 +12,7 @@ these in a couple of hours.
 
 Make a cheat sheet for yourself: a list of commands and what they do, focused on things that are new, interesting, or otherwise worth remembering.
 
-REPLACE THIS TEXT WITH YOUR RESPONSE
+Most of the command line is new to me, but I think wildcard or the asterik (*) is a very usefull things to remember. 
 
 ---
 
@@ -21,7 +21,7 @@ REPLACE THIS TEXT WITH YOUR RESPONSE
 
 What does `ls` do? What do `ls -a`, `ls -l`, and `ls -lh` do? What combinations of those flags are meaningful?
 
-REPLACE THIS TEXT WITH YOUR RESPONSE
+ls stands for list, which list the items on the directory. ls -a lists all files and folder which I think act similarly with just ls. ls -l lists the files and folder with detial information and we can specify the file we want to get the information. ls -lh acts similarly with ls -l, but its more human readable in which some of the information is simplified such as the size is written as kilobyte than just unit number. 
 
 ---
 
@@ -30,6 +30,16 @@ REPLACE THIS TEXT WITH YOUR RESPONSE
 
 What does `xargs` do? Give an example of how to use it.
 
-REPLACE THIS TEXT WITH YOUR RESPONSE
+I think xargs splits a list into sublist or split a group into subgroup. I mean I can write 
+
+$echo {1..9}
+1 2 3 4 5 6 7 8 9
+
+$echo {1..9} | xargs -n 3
+1 2 3
+4 5 6
+7 8 9
+
+Where xargs splits the long line 1..9 into 3 shorter items. 
 
 ---
