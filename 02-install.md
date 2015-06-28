@@ -37,8 +37,7 @@ import sklearn
 
 Did you install Python 2 or 3? Why? How can you check the version of Python installed if you happen to be on an unfamiliar computer?
 
-REPLACE THIS TEXT WITH YOUR RESPONSE
-
+I install python version 2.7.10 because I remember seeing on Metis website that we are going to use Python 2. Also, I prefer Python 2 many of my online courses use Python 2. I can check the version by typing "python -V" in my Mac terminal or Windows cmd. 
 ---
 
 
