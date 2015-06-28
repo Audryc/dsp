@@ -61,6 +61,8 @@ We will also use Jupyter (IPython) notebooks, but this does not remove the need 
 
 What graphical editor will you use? How did you make your decision? What are some interesting features of your editor? What are some useful keyboard shortcuts for your editor? How do you customize your editor?
 
-REPLACE THIS TEXT WITH YOUR RESPONSE
+I will be using mac vim for my graphical editor. I am not good at using vim, but my favorite professor recommended me to use vim. Therefore, I decide to learn vim and be good at it. Not to mention, after I looked closer into vim, I find the GUI very flexible and personalizable. I can change the tab, the background color, create a number line, and many more. One feature that I am still learning is to create a complete tab feature in my editor. 
+
+To customize it, I edit the ~/.vimrc/ directory. In that directory, I add a lot of feature that I think will be very useful for me when I begin my data science program.
 
 ---
