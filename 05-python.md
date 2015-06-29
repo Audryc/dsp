@@ -36,9 +36,11 @@ Like from the previous questions, both lists and sets are container objects, whi
 
 Describe Python's `lambda`. What is it, and what is it used for? Give at least one example, including an example of using a `lambda` in the `key` argument to `sorted`.
 
-Lambda is an awesome feature in python. It acts similar to python function but it requires less effort to create. As a mathematician, lambda function acts more closely related to mathematical function. 
+Lambda is an awesome feature in python. It acts similar to python function but it requires less effort to create. As a mathematician, lambda function acts more closely related to mathematical function. Lambda example:
 
-Lambda example>>> g = lambda x: x^2
+>>> student_info = [('Alex','Computer Science', 1),('Bob','Mathematics',3),('Charles','Philosophy',2),('David','Economics',1)]
+
+>>> sorted(student_info, key=lambda school_year: school_year[2])
 
 ---
 
@@ -47,7 +49,21 @@ Lambda example>>> g = lambda x: x^2
 
 Explain list comprehensions. Give examples and show equivalents with `map` and `filter`. How do their capabilities compare? Also demonstrate set comprehensions and dictionary comprehensions.
 
-List comprehensions 
+List comprehensions is similar to for loop in a single line. 
+
+>>>x,y=[1,2,3,4],[2,6,7,8]
+
+>>>listComp=[i+j for i,j in x,y]
+
+>>>map(lambda i,j: i+j, x,y)
+
+>>>listComp2=[i for i in y if i%2==0]
+
+>>>filter(lambda i: i%2==0,y)
+
+>>>dictComp={n: n**2 for n in x}
+
+>>>setComp = {n**2 for n in x}
 
 ---
 
