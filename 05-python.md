@@ -18,7 +18,7 @@ These exercises are implemented with doctests, which are runnable tests inside d
 
 How are Python lists and tuples similar and different? Which will work as keys in dictionaries? Why?
 
-Lists and tuples are similar because they are container objects, which mean they contain other data types such as integer (int), str (string), bool (Boolean), etc. Base on the syntax, list uses square bracket while tupple uses round bracket. One noteworthy difference between list and tuple is that list is mutable, which mean we can add or subtract the number of data, while tuple is immutable, which mean we cannot add or subtract the number of data. Since tuple is immutable and list is mutable, then tuple will work as keys in dictionaries while list will not work. 
+Lists and tuples are similar because they are container objects, which mean they contain other data types such as integer (int), str (string), bool (Boolean), etc. Base on the syntax, list uses square bracket while tupple uses round bracket. One noteworthy difference between list and tuple is that list is mutable, which mean we can change the data, while tuple is immutable, which mean we cannot change the data. Since tuple is immutable and list is mutable, then tuple will work as keys in dictionaries while list will not work. 
 
 ---
 
