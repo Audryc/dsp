@@ -7,6 +7,17 @@ def match_ends(words):
     Given a list of strings, return the count of the number of strings
     where the string length is 2 or more and the first and last chars
     of the string are the same.
+    
+    Answer:
+    
+    def match_ends(words):
+        ans = 0
+        for elem in words:
+            if elem[0] == elem[-1] and len(elem)>=2:
+                ans += 1
+            else
+                pass
+      return ans
 
     >>> match_ends(['aba', 'xyz', 'aa', 'x', 'bbb'])
     3
@@ -25,6 +36,18 @@ def front_x(words):
     e.g. ['mix', 'xyz', 'apple', 'xanadu', 'aardvark'] yields
          ['xanadu', 'xyz', 'aardvark', 'apple', 'mix'].
 
+    
+    Answer:
+    
+    def front_x(words):
+        xwords = []
+        for char in words:
+            if char[0] == 'x':
+                xwords.append(char)
+                    words.remove(char)
+        return sorted(xwords) + sorted(words)
+
+
     >>> front_x(['bbb', 'ccc', 'axx', 'xzz', 'xaa'])
     ['xaa', 'xzz', 'axx', 'bbb', 'ccc']
     >>> front_x(['ccc', 'bbb', 'aaa', 'xcc', 'xaa'])
@@ -42,6 +65,11 @@ def sort_last(tuples):
     e.g. [(1, 7), (1, 3), (3, 4, 5), (2, 2)] yields
          [(2, 2), (1, 3), (3, 4, 5), (1, 7)].
 
+    Answer:
+    
+    def sort_last(tuples):
+        return sorted(tuples, key = lambda x: x[-1])
+
     >>> sort_last([(1, 3), (3, 2), (2, 1)])
     [(2, 1), (3, 2), (1, 3)]
     >>> sort_last([(2, 3), (1, 2), (3, 1)])
@@ -58,6 +86,18 @@ def remove_adjacent(nums):
     elements have been reduced to a single element, so [1, 2, 2, 3]
     returns [1, 2, 3]. You may create a new list or modify the passed
     in list.
+
+    Answer:
+    
+    def remove_adjacent(nums):
+        ans = []
+        update_val = None
+        for val in nums:
+            if val != update_val:
+                ans.append(val)
+                update_val = val
+        return ans 
+
 
     >>> remove_adjacent([1, 2, 2, 3])
     [1, 2, 3]
@@ -77,6 +117,11 @@ def linear_merge(list1, list2):
     merged list of all the elements in sorted order. You may modify
     the passed in lists. Ideally, the solution should work in "linear"
     time, making a single pass of both lists.
+
+    Answer:
+    
+    def linear_merge(list1,list2):
+        return sorted(list1 + list2)
 
     >>> linear_merge(['aa', 'xx', 'zz'], ['bb', 'cc'])
     ['aa', 'bb', 'cc', 'xx', 'zz']
